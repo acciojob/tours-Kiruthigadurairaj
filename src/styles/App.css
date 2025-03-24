@@ -1,12 +1,50 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+h1 {
+  color: #27aedb;
+  text-align: center;
+}
+
+.tours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.single-tour {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.single-tour > img {
+  width: 100%;
+}
+
+.empty-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  gap: 1rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }
